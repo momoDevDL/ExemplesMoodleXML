@@ -9,23 +9,13 @@
 	<penalty>1</penalty>
 	<defaultgrade>1</defaultgrade>
 	<answer fraction="100">
-		<text>Ceci est la bonne réponse</text>
-		<feedback>
-			<text>Bravo !</text>
-		</feedback>
-	</answer>
-	<answer fraction="0">
-		<text>Une mauvaise réponse</text>
-		<feedback>
-			<text>Ooops!</text>
-		</feedback>
-	</answer>
-	<answer fraction="0">
-		<text>Une autre mauvaise réponse</text>
-		<feedback>
-			<text>Ooops!</text>
-		</feedback>
-	</answer>
+    <text>true</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+    <text>false</text>
+    <feedback><text>Ooops!</text></feedback>
+ </answer>
 	<shuffleanswers>1</shuffleanswers>
 	<single>true</single>
 </question>
